@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../bd/zynq7010/ip/zynq7010_proc_sys_reset_0_0/sim/zynq7010_proc_sys_reset_0_0.vhd" \
+
+nosort

@@ -1,0 +1,754 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 04:59:54 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Sun Dec 15 19:59:11 2024
+# Process ID: 378676
+# Current directory: /home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.runs/zynq7010_render_2d_0_1_synth_1
+# Command line: vivado -log zynq7010_render_2d_0_1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source zynq7010_render_2d_0_1.tcl
+# Log file: /home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.runs/zynq7010_render_2d_0_1_synth_1/zynq7010_render_2d_0_1.vds
+# Journal file: /home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.runs/zynq7010_render_2d_0_1_synth_1/vivado.jou
+# Running On: ztn-Legion-Y9000P-IRX8, OS: Linux, CPU Frequency: 800.463 MHz, CPU Physical cores: 24, Host memory: 67215 MB
+#-----------------------------------------------------------
+source zynq7010_render_2d_0_1.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/ztn/Embedded/ip_repo/zynq7010_axi4_fbreader_to_hdmi_1_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/ztn/Embedded/ip_repo/2DRenderer/2DRenderer/solution1/impl/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/ztn/Embedded/Xilinx/Vivado/2022.2/data/ip'.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq7010_render_2d_0_1
+Command: synth_design -top zynq7010_render_2d_0_1 -part xc7z010clg400-1 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 378820
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [/home/ztn/Embedded/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1954.148 ; gain = 369.770 ; free physical = 40015 ; free virtual = 54534
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1372.633; parent = 1169.762; children = 202.871
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 2942.113; parent = 1960.090; children = 982.023
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'zynq7010_render_2d_0_1' [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ip/zynq7010_render_2d_0_1/synth/zynq7010_render_2d_0_1.v:53]
+INFO: [Synth 8-6157] synthesizing module 'render_2d' [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d.v:10]
+INFO: [Synth 8-6157] synthesizing module 'render_2d_bucket_RAM_AUTO_1R1W' [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_bucket_RAM_AUTO_1R1W.v:7]
+INFO: [Synth 8-3876] $readmem data file './render_2d_bucket_RAM_AUTO_1R1W.dat' is read successfully [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_bucket_RAM_AUTO_1R1W.v:31]
+INFO: [Synth 8-6155] done synthesizing module 'render_2d_bucket_RAM_AUTO_1R1W' (0#1) [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_bucket_RAM_AUTO_1R1W.v:7]
+INFO: [Synth 8-6157] synthesizing module 'render_2d_bullet_sprite_V_RAM_1WNR_AUTO_1R1W' [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_bullet_sprite_V_RAM_1WNR_AUTO_1R1W.v:7]
+INFO: [Synth 8-6155] done synthesizing module 'render_2d_bullet_sprite_V_RAM_1WNR_AUTO_1R1W' (0#1) [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_bullet_sprite_V_RAM_1WNR_AUTO_1R1W.v:7]
+INFO: [Synth 8-6157] synthesizing module 'render_2d_grid_info_enemy_bullets_V_RAM_AUTO_1R1W' [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_grid_info_enemy_bullets_V_RAM_AUTO_1R1W.v:7]
+INFO: [Synth 8-6155] done synthesizing module 'render_2d_grid_info_enemy_bullets_V_RAM_AUTO_1R1W' (0#1) [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_grid_info_enemy_bullets_V_RAM_AUTO_1R1W.v:7]
+INFO: [Synth 8-6157] synthesizing module 'render_2d_grid_info_player_bullets_V_RAM_AUTO_1R1W' [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_grid_info_player_bullets_V_RAM_AUTO_1R1W.v:7]
+INFO: [Synth 8-6155] done synthesizing module 'render_2d_grid_info_player_bullets_V_RAM_AUTO_1R1W' (0#1) [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_grid_info_player_bullets_V_RAM_AUTO_1R1W.v:7]
+INFO: [Synth 8-6157] synthesizing module 'render_2d_enemy_bullet_V_RAM_AUTO_1R1W' [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_enemy_bullet_V_RAM_AUTO_1R1W.v:7]
+INFO: [Synth 8-6155] done synthesizing module 'render_2d_enemy_bullet_V_RAM_AUTO_1R1W' (0#1) [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_enemy_bullet_V_RAM_AUTO_1R1W.v:7]
+INFO: [Synth 8-6157] synthesizing module 'render_2d_player_bullet_V_RAM_AUTO_1R1W' [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_player_bullet_V_RAM_AUTO_1R1W.v:7]
+INFO: [Synth 8-6155] done synthesizing module 'render_2d_player_bullet_V_RAM_AUTO_1R1W' (0#1) [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_player_bullet_V_RAM_AUTO_1R1W.v:7]
+INFO: [Synth 8-6157] synthesizing module 'render_2d_tile_fb_V_RAM_AUTO_1R1W' [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_tile_fb_V_RAM_AUTO_1R1W.v:7]
+INFO: [Synth 8-6155] done synthesizing module 'render_2d_tile_fb_V_RAM_AUTO_1R1W' (0#1) [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_tile_fb_V_RAM_AUTO_1R1W.v:7]
+INFO: [Synth 8-6157] synthesizing module 'render_2d_render_2d_Pipeline_clear_tile_y_clear_tile_x' [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_render_2d_Pipeline_clear_tile_y_clear_tile_x.v:10]
+INFO: [Synth 8-6157] synthesizing module 'render_2d_flow_control_loop_pipe_sequential_init' [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_flow_control_loop_pipe_sequential_init.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'render_2d_flow_control_loop_pipe_sequential_init' (0#1) [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_flow_control_loop_pipe_sequential_init.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'render_2d_render_2d_Pipeline_clear_tile_y_clear_tile_x' (0#1) [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_render_2d_Pipeline_clear_tile_y_clear_tile_x.v:10]
+INFO: [Synth 8-6157] synthesizing module 'render_2d_render_2d_Pipeline_render_enemy_bullets_render_enemy_bullets_x' [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_render_2d_Pipeline_render_enemy_bullets_render_enemy_bullets_x.v:10]
+INFO: [Synth 8-6157] synthesizing module 'render_2d_mux_164_32_1_1' [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_mux_164_32_1_1.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'render_2d_mux_164_32_1_1' (0#1) [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_mux_164_32_1_1.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'render_2d_render_2d_Pipeline_render_enemy_bullets_render_enemy_bullets_x' (0#1) [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_render_2d_Pipeline_render_enemy_bullets_render_enemy_bullets_x.v:10]
+INFO: [Synth 8-6157] synthesizing module 'render_2d_render_2d_Pipeline_render_player_bullets_render_player_bullets_x' [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_render_2d_Pipeline_render_player_bullets_render_player_bullets_x.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'render_2d_render_2d_Pipeline_render_player_bullets_render_player_bullets_x' (0#1) [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_render_2d_Pipeline_render_player_bullets_render_player_bullets_x.v:10]
+INFO: [Synth 8-6157] synthesizing module 'render_2d_vram_m_axi' [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_vram_m_axi.v:11]
+INFO: [Synth 8-6157] synthesizing module 'render_2d_vram_m_axi_store' [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_vram_m_axi.v:781]
+INFO: [Synth 8-6157] synthesizing module 'render_2d_vram_m_axi_fifo' [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_vram_m_axi.v:2551]
+INFO: [Synth 8-6157] synthesizing module 'render_2d_vram_m_axi_srl' [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_vram_m_axi.v:2729]
+INFO: [Synth 8-6155] done synthesizing module 'render_2d_vram_m_axi_srl' (0#1) [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_vram_m_axi.v:2729]
+INFO: [Synth 8-6155] done synthesizing module 'render_2d_vram_m_axi_fifo' (0#1) [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_vram_m_axi.v:2551]
+INFO: [Synth 8-6157] synthesizing module 'render_2d_vram_m_axi_fifo__parameterized0' [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_vram_m_axi.v:2551]
+INFO: [Synth 8-6157] synthesizing module 'render_2d_vram_m_axi_mem' [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_vram_m_axi.v:2783]
+INFO: [Synth 8-6155] done synthesizing module 'render_2d_vram_m_axi_mem' (0#1) [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_vram_m_axi.v:2783]
+INFO: [Synth 8-6155] done synthesizing module 'render_2d_vram_m_axi_fifo__parameterized0' (0#1) [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_vram_m_axi.v:2551]
+INFO: [Synth 8-6157] synthesizing module 'render_2d_vram_m_axi_fifo__parameterized1' [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_vram_m_axi.v:2551]
+INFO: [Synth 8-6157] synthesizing module 'render_2d_vram_m_axi_srl__parameterized0' [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_vram_m_axi.v:2729]
+INFO: [Synth 8-6155] done synthesizing module 'render_2d_vram_m_axi_srl__parameterized0' (0#1) [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_vram_m_axi.v:2729]
+INFO: [Synth 8-6155] done synthesizing module 'render_2d_vram_m_axi_fifo__parameterized1' (0#1) [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_vram_m_axi.v:2551]
+INFO: [Synth 8-6157] synthesizing module 'render_2d_vram_m_axi_fifo__parameterized2' [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_vram_m_axi.v:2551]
+INFO: [Synth 8-6157] synthesizing module 'render_2d_vram_m_axi_srl__parameterized1' [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_vram_m_axi.v:2729]
+INFO: [Synth 8-6155] done synthesizing module 'render_2d_vram_m_axi_srl__parameterized1' (0#1) [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_vram_m_axi.v:2729]
+INFO: [Synth 8-6155] done synthesizing module 'render_2d_vram_m_axi_fifo__parameterized2' (0#1) [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_vram_m_axi.v:2551]
+INFO: [Synth 8-6155] done synthesizing module 'render_2d_vram_m_axi_store' (0#1) [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_vram_m_axi.v:781]
+INFO: [Synth 8-6157] synthesizing module 'render_2d_vram_m_axi_load' [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_vram_m_axi.v:325]
+INFO: [Synth 8-6157] synthesizing module 'render_2d_vram_m_axi_fifo__parameterized3' [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_vram_m_axi.v:2551]
+INFO: [Synth 8-6157] synthesizing module 'render_2d_vram_m_axi_mem__parameterized0' [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_vram_m_axi.v:2783]
+INFO: [Synth 8-6155] done synthesizing module 'render_2d_vram_m_axi_mem__parameterized0' (0#1) [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_vram_m_axi.v:2783]
+INFO: [Synth 8-6155] done synthesizing module 'render_2d_vram_m_axi_fifo__parameterized3' (0#1) [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_vram_m_axi.v:2551]
+INFO: [Synth 8-6155] done synthesizing module 'render_2d_vram_m_axi_load' (0#1) [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_vram_m_axi.v:325]
+INFO: [Synth 8-6157] synthesizing module 'render_2d_vram_m_axi_write' [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_vram_m_axi.v:1716]
+INFO: [Synth 8-6157] synthesizing module 'render_2d_vram_m_axi_reg_slice' [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_vram_m_axi.v:2449]
+INFO: [Synth 8-6155] done synthesizing module 'render_2d_vram_m_axi_reg_slice' (0#1) [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_vram_m_axi.v:2449]
+INFO: [Synth 8-6157] synthesizing module 'render_2d_vram_m_axi_fifo__parameterized4' [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_vram_m_axi.v:2551]
+INFO: [Synth 8-6157] synthesizing module 'render_2d_vram_m_axi_srl__parameterized2' [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_vram_m_axi.v:2729]
+INFO: [Synth 8-6155] done synthesizing module 'render_2d_vram_m_axi_srl__parameterized2' (0#1) [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_vram_m_axi.v:2729]
+INFO: [Synth 8-6155] done synthesizing module 'render_2d_vram_m_axi_fifo__parameterized4' (0#1) [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_vram_m_axi.v:2551]
+INFO: [Synth 8-6157] synthesizing module 'render_2d_vram_m_axi_throttle' [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_vram_m_axi.v:2224]
+INFO: [Synth 8-6157] synthesizing module 'render_2d_vram_m_axi_reg_slice__parameterized0' [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_vram_m_axi.v:2449]
+INFO: [Synth 8-6155] done synthesizing module 'render_2d_vram_m_axi_reg_slice__parameterized0' (0#1) [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_vram_m_axi.v:2449]
+INFO: [Synth 8-6157] synthesizing module 'render_2d_vram_m_axi_fifo__parameterized5' [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_vram_m_axi.v:2551]
+INFO: [Synth 8-6157] synthesizing module 'render_2d_vram_m_axi_srl__parameterized3' [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_vram_m_axi.v:2729]
+INFO: [Synth 8-6155] done synthesizing module 'render_2d_vram_m_axi_srl__parameterized3' (0#1) [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_vram_m_axi.v:2729]
+INFO: [Synth 8-6155] done synthesizing module 'render_2d_vram_m_axi_fifo__parameterized5' (0#1) [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_vram_m_axi.v:2551]
+INFO: [Synth 8-6157] synthesizing module 'render_2d_vram_m_axi_fifo__parameterized6' [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_vram_m_axi.v:2551]
+INFO: [Synth 8-6157] synthesizing module 'render_2d_vram_m_axi_srl__parameterized4' [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_vram_m_axi.v:2729]
+INFO: [Synth 8-6155] done synthesizing module 'render_2d_vram_m_axi_srl__parameterized4' (0#1) [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_vram_m_axi.v:2729]
+INFO: [Synth 8-6155] done synthesizing module 'render_2d_vram_m_axi_fifo__parameterized6' (0#1) [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_vram_m_axi.v:2551]
+INFO: [Synth 8-6155] done synthesizing module 'render_2d_vram_m_axi_throttle' (0#1) [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_vram_m_axi.v:2224]
+INFO: [Synth 8-6157] synthesizing module 'render_2d_vram_m_axi_reg_slice__parameterized1' [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_vram_m_axi.v:2449]
+INFO: [Synth 8-6155] done synthesizing module 'render_2d_vram_m_axi_reg_slice__parameterized1' (0#1) [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_vram_m_axi.v:2449]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_vram_m_axi.v:2216]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_vram_m_axi.v:2219]
+INFO: [Synth 8-6155] done synthesizing module 'render_2d_vram_m_axi_write' (0#1) [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_vram_m_axi.v:1716]
+INFO: [Synth 8-6157] synthesizing module 'render_2d_vram_m_axi_read' [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_vram_m_axi.v:1332]
+INFO: [Synth 8-6157] synthesizing module 'render_2d_vram_m_axi_reg_slice__parameterized2' [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_vram_m_axi.v:2449]
+INFO: [Synth 8-6155] done synthesizing module 'render_2d_vram_m_axi_reg_slice__parameterized2' (0#1) [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_vram_m_axi.v:2449]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_vram_m_axi.v:1708]
+INFO: [Synth 8-6155] done synthesizing module 'render_2d_vram_m_axi_read' (0#1) [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_vram_m_axi.v:1332]
+INFO: [Synth 8-6155] done synthesizing module 'render_2d_vram_m_axi' (0#1) [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_vram_m_axi.v:11]
+INFO: [Synth 8-6155] done synthesizing module 'render_2d' (0#1) [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'zynq7010_render_2d_0_1' (0#1) [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ip/zynq7010_render_2d_0_1/synth/zynq7010_render_2d_0_1.v:53]
+WARNING: [Synth 8-3936] Found unconnected internal register 'r_V_reg_2815_pp0_iter5_reg_reg' and it is trimmed from '64' to '16' bits. [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_render_2d_Pipeline_render_enemy_bullets_render_enemy_bullets_x.v:1412]
+WARNING: [Synth 8-3936] Found unconnected internal register 'r_V_reg_2815_reg' and it is trimmed from '64' to '16' bits. [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_render_2d_Pipeline_render_enemy_bullets_render_enemy_bullets_x.v:1411]
+WARNING: [Synth 8-3936] Found unconnected internal register 'r_V_5_reg_2855_pp0_iter5_reg_reg' and it is trimmed from '64' to '16' bits. [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_render_2d_Pipeline_render_enemy_bullets_render_enemy_bullets_x.v:1410]
+WARNING: [Synth 8-3936] Found unconnected internal register 'r_V_5_reg_2855_reg' and it is trimmed from '64' to '16' bits. [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_render_2d_Pipeline_render_enemy_bullets_render_enemy_bullets_x.v:1409]
+WARNING: [Synth 8-3936] Found unconnected internal register 'r_V_4_reg_2838_pp0_iter5_reg_reg' and it is trimmed from '64' to '16' bits. [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_render_2d_Pipeline_render_enemy_bullets_render_enemy_bullets_x.v:1408]
+WARNING: [Synth 8-3936] Found unconnected internal register 'r_V_4_reg_2838_reg' and it is trimmed from '64' to '16' bits. [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_render_2d_Pipeline_render_enemy_bullets_render_enemy_bullets_x.v:1407]
+WARNING: [Synth 8-3936] Found unconnected internal register 'r_V_reg_1558_reg' and it is trimmed from '64' to '16' bits. [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_render_2d_Pipeline_render_player_bullets_render_player_bullets_x.v:494]
+WARNING: [Synth 8-3936] Found unconnected internal register 'r_V_1_reg_1575_reg' and it is trimmed from '64' to '16' bits. [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d_render_2d_Pipeline_render_player_bullets_render_player_bullets_x.v:493]
+WARNING: [Synth 8-7129] Port in_BUS_RID[0] in module render_2d_vram_m_axi_read is either unconnected or has no load
+WARNING: [Synth 8-7129] Port in_BUS_RRESP[1] in module render_2d_vram_m_axi_read is either unconnected or has no load
+WARNING: [Synth 8-7129] Port in_BUS_RRESP[0] in module render_2d_vram_m_axi_read is either unconnected or has no load
+WARNING: [Synth 8-7129] Port in_BUS_RUSER[0] in module render_2d_vram_m_axi_read is either unconnected or has no load
+WARNING: [Synth 8-7129] Port in_BUS_BID[0] in module render_2d_vram_m_axi_write is either unconnected or has no load
+WARNING: [Synth 8-7129] Port in_BUS_BRESP[1] in module render_2d_vram_m_axi_write is either unconnected or has no load
+WARNING: [Synth 8-7129] Port in_BUS_BRESP[0] in module render_2d_vram_m_axi_write is either unconnected or has no load
+WARNING: [Synth 8-7129] Port in_BUS_BUSER[0] in module render_2d_vram_m_axi_write is either unconnected or has no load
+WARNING: [Synth 8-7129] Port raddr[2] in module render_2d_vram_m_axi_srl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port raddr[2] in module render_2d_vram_m_axi_srl__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tmp_bullet_V_4[26] in module render_2d_render_2d_Pipeline_render_player_bullets_render_player_bullets_x is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tmp_bullet_V_4[25] in module render_2d_render_2d_Pipeline_render_player_bullets_render_player_bullets_x is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tmp_bullet_V_4[24] in module render_2d_render_2d_Pipeline_render_player_bullets_render_player_bullets_x is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tmp_bullet_V_4[23] in module render_2d_render_2d_Pipeline_render_player_bullets_render_player_bullets_x is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tmp_bullet_V_4[22] in module render_2d_render_2d_Pipeline_render_player_bullets_render_player_bullets_x is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tmp_bullet_V_4[21] in module render_2d_render_2d_Pipeline_render_player_bullets_render_player_bullets_x is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tmp_bullet_V_4[20] in module render_2d_render_2d_Pipeline_render_player_bullets_render_player_bullets_x is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tmp_bullet_V_4[19] in module render_2d_render_2d_Pipeline_render_player_bullets_render_player_bullets_x is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tmp_bullet_V_4[18] in module render_2d_render_2d_Pipeline_render_player_bullets_render_player_bullets_x is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tmp_bullet_V_5[26] in module render_2d_render_2d_Pipeline_render_player_bullets_render_player_bullets_x is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tmp_bullet_V_5[25] in module render_2d_render_2d_Pipeline_render_player_bullets_render_player_bullets_x is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tmp_bullet_V_5[24] in module render_2d_render_2d_Pipeline_render_player_bullets_render_player_bullets_x is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tmp_bullet_V_5[23] in module render_2d_render_2d_Pipeline_render_player_bullets_render_player_bullets_x is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tmp_bullet_V_5[22] in module render_2d_render_2d_Pipeline_render_player_bullets_render_player_bullets_x is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tmp_bullet_V_5[21] in module render_2d_render_2d_Pipeline_render_player_bullets_render_player_bullets_x is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tmp_bullet_V_5[20] in module render_2d_render_2d_Pipeline_render_player_bullets_render_player_bullets_x is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tmp_bullet_V_5[19] in module render_2d_render_2d_Pipeline_render_player_bullets_render_player_bullets_x is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tmp_bullet_V_5[18] in module render_2d_render_2d_Pipeline_render_player_bullets_render_player_bullets_x is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tmp_bullet_V[26] in module render_2d_render_2d_Pipeline_render_enemy_bullets_render_enemy_bullets_x is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tmp_bullet_V[25] in module render_2d_render_2d_Pipeline_render_enemy_bullets_render_enemy_bullets_x is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tmp_bullet_V[24] in module render_2d_render_2d_Pipeline_render_enemy_bullets_render_enemy_bullets_x is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tmp_bullet_V[23] in module render_2d_render_2d_Pipeline_render_enemy_bullets_render_enemy_bullets_x is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tmp_bullet_V[22] in module render_2d_render_2d_Pipeline_render_enemy_bullets_render_enemy_bullets_x is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tmp_bullet_V[21] in module render_2d_render_2d_Pipeline_render_enemy_bullets_render_enemy_bullets_x is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tmp_bullet_V[20] in module render_2d_render_2d_Pipeline_render_enemy_bullets_render_enemy_bullets_x is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tmp_bullet_V[19] in module render_2d_render_2d_Pipeline_render_enemy_bullets_render_enemy_bullets_x is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tmp_bullet_V[18] in module render_2d_render_2d_Pipeline_render_enemy_bullets_render_enemy_bullets_x is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tmp_bullet_V_1[26] in module render_2d_render_2d_Pipeline_render_enemy_bullets_render_enemy_bullets_x is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tmp_bullet_V_1[25] in module render_2d_render_2d_Pipeline_render_enemy_bullets_render_enemy_bullets_x is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tmp_bullet_V_1[24] in module render_2d_render_2d_Pipeline_render_enemy_bullets_render_enemy_bullets_x is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tmp_bullet_V_1[23] in module render_2d_render_2d_Pipeline_render_enemy_bullets_render_enemy_bullets_x is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tmp_bullet_V_1[22] in module render_2d_render_2d_Pipeline_render_enemy_bullets_render_enemy_bullets_x is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tmp_bullet_V_1[21] in module render_2d_render_2d_Pipeline_render_enemy_bullets_render_enemy_bullets_x is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tmp_bullet_V_1[20] in module render_2d_render_2d_Pipeline_render_enemy_bullets_render_enemy_bullets_x is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tmp_bullet_V_1[19] in module render_2d_render_2d_Pipeline_render_enemy_bullets_render_enemy_bullets_x is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tmp_bullet_V_1[18] in module render_2d_render_2d_Pipeline_render_enemy_bullets_render_enemy_bullets_x is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tmp_bullet_V_2[26] in module render_2d_render_2d_Pipeline_render_enemy_bullets_render_enemy_bullets_x is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tmp_bullet_V_2[25] in module render_2d_render_2d_Pipeline_render_enemy_bullets_render_enemy_bullets_x is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tmp_bullet_V_2[24] in module render_2d_render_2d_Pipeline_render_enemy_bullets_render_enemy_bullets_x is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tmp_bullet_V_2[23] in module render_2d_render_2d_Pipeline_render_enemy_bullets_render_enemy_bullets_x is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tmp_bullet_V_2[22] in module render_2d_render_2d_Pipeline_render_enemy_bullets_render_enemy_bullets_x is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tmp_bullet_V_2[21] in module render_2d_render_2d_Pipeline_render_enemy_bullets_render_enemy_bullets_x is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tmp_bullet_V_2[20] in module render_2d_render_2d_Pipeline_render_enemy_bullets_render_enemy_bullets_x is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tmp_bullet_V_2[19] in module render_2d_render_2d_Pipeline_render_enemy_bullets_render_enemy_bullets_x is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tmp_bullet_V_2[18] in module render_2d_render_2d_Pipeline_render_enemy_bullets_render_enemy_bullets_x is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tmp_bullet_V_3[26] in module render_2d_render_2d_Pipeline_render_enemy_bullets_render_enemy_bullets_x is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tmp_bullet_V_3[25] in module render_2d_render_2d_Pipeline_render_enemy_bullets_render_enemy_bullets_x is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tmp_bullet_V_3[24] in module render_2d_render_2d_Pipeline_render_enemy_bullets_render_enemy_bullets_x is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tmp_bullet_V_3[23] in module render_2d_render_2d_Pipeline_render_enemy_bullets_render_enemy_bullets_x is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tmp_bullet_V_3[22] in module render_2d_render_2d_Pipeline_render_enemy_bullets_render_enemy_bullets_x is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tmp_bullet_V_3[21] in module render_2d_render_2d_Pipeline_render_enemy_bullets_render_enemy_bullets_x is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tmp_bullet_V_3[20] in module render_2d_render_2d_Pipeline_render_enemy_bullets_render_enemy_bullets_x is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tmp_bullet_V_3[19] in module render_2d_render_2d_Pipeline_render_enemy_bullets_render_enemy_bullets_x is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tmp_bullet_V_3[18] in module render_2d_render_2d_Pipeline_render_enemy_bullets_render_enemy_bullets_x is either unconnected or has no load
+WARNING: [Synth 8-7129] Port reset in module render_2d_tile_fb_V_RAM_AUTO_1R1W is either unconnected or has no load
+WARNING: [Synth 8-7129] Port reset in module render_2d_player_bullet_V_RAM_AUTO_1R1W is either unconnected or has no load
+WARNING: [Synth 8-7129] Port reset in module render_2d_enemy_bullet_V_RAM_AUTO_1R1W is either unconnected or has no load
+WARNING: [Synth 8-7129] Port reset in module render_2d_grid_info_player_bullets_V_RAM_AUTO_1R1W is either unconnected or has no load
+WARNING: [Synth 8-7129] Port reset in module render_2d_grid_info_enemy_bullets_V_RAM_AUTO_1R1W is either unconnected or has no load
+WARNING: [Synth 8-7129] Port reset in module render_2d_bullet_sprite_V_RAM_1WNR_AUTO_1R1W is either unconnected or has no load
+WARNING: [Synth 8-7129] Port reset in module render_2d_bucket_RAM_AUTO_1R1W is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2080.180 ; gain = 495.801 ; free physical = 39993 ; free virtual = 54514
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1372.633; parent = 1169.762; children = 202.871
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3062.207; parent = 2080.184; children = 982.023
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2097.992 ; gain = 513.613 ; free physical = 39991 ; free virtual = 54512
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1372.633; parent = 1169.762; children = 202.871
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3080.020; parent = 2097.996; children = 982.023
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2097.992 ; gain = 513.613 ; free physical = 39991 ; free virtual = 54512
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1372.633; parent = 1169.762; children = 202.871
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3080.020; parent = 2097.996; children = 982.023
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.11 ; elapsed = 00:00:00.11 . Memory (MB): peak = 2097.992 ; gain = 0.000 ; free physical = 39988 ; free virtual = 54509
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ip/zynq7010_render_2d_0_1/constraints/render_2d_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ip/zynq7010_render_2d_0_1/constraints/render_2d_ooc.xdc] for cell 'inst'
+Parsing XDC File [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.runs/zynq7010_render_2d_0_1_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.runs/zynq7010_render_2d_0_1_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2248.742 ; gain = 0.000 ; free physical = 39929 ; free virtual = 54450
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.3 ; elapsed = 00:00:00.1 . Memory (MB): peak = 2248.742 ; gain = 0.000 ; free physical = 39929 ; free virtual = 54450
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [/home/ztn/Embedded/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2248.742 ; gain = 664.363 ; free physical = 40203 ; free virtual = 54724
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1372.633; parent = 1169.762; children = 202.871
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3198.754; parent = 2216.730; children = 982.023
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2248.742 ; gain = 664.363 ; free physical = 40203 ; free virtual = 54724
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1372.633; parent = 1169.762; children = 202.871
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3198.754; parent = 2216.730; children = 982.023
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  /home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.runs/zynq7010_render_2d_0_1_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2248.742 ; gain = 664.363 ; free physical = 40203 ; free virtual = 54724
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1372.633; parent = 1169.762; children = 202.871
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3198.754; parent = 2216.730; children = 982.023
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'render_2d_vram_m_axi_reg_slice'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'render_2d_vram_m_axi_reg_slice__parameterized0'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'render_2d_vram_m_axi_reg_slice__parameterized1'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'render_2d_vram_m_axi_reg_slice__parameterized2'
+WARNING: [Synth 8-3936] Found unconnected internal register 'tmp_b_V_reg_2486_reg' and it is trimmed from '32' to '31' bits. [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d.v:1493]
+WARNING: [Synth 8-3936] Found unconnected internal register 'tmp_b_V_1_reg_2623_reg' and it is trimmed from '32' to '31' bits. [/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.gen/sources_1/bd/zynq7010/ipshared/046e/hdl/verilog/render_2d.v:1469]
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+INFO: [Synth 8-3971] The signal "render_2d_enemy_bullet_V_RAM_AUTO_1R1W:/ram_reg" was recognized as a true dual port RAM template.
+INFO: [Synth 8-3971] The signal "render_2d_player_bullet_V_RAM_AUTO_1R1W:/ram_reg" was recognized as a true dual port RAM template.
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    ZERO |                               00 |                               10
+                     ONE |                               10 |                               11
+                     TWO |                               01 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'render_2d_vram_m_axi_reg_slice'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    ZERO |                               00 |                               10
+                     ONE |                               10 |                               11
+                     TWO |                               01 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'render_2d_vram_m_axi_reg_slice__parameterized0'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    ZERO |                               00 |                               10
+                     ONE |                               10 |                               11
+                     TWO |                               01 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'render_2d_vram_m_axi_reg_slice__parameterized1'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    ZERO |                               00 |                               10
+                     ONE |                               10 |                               11
+                     TWO |                               01 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'render_2d_vram_m_axi_reg_slice__parameterized2'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2248.742 ; gain = 664.363 ; free physical = 40211 ; free virtual = 54737
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1372.633; parent = 1169.762; children = 202.871
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3198.754; parent = 2216.730; children = 982.023
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   4 Input   34 Bit       Adders := 8     
+	   2 Input   33 Bit       Adders := 2     
+	   3 Input   32 Bit       Adders := 4     
+	   2 Input   32 Bit       Adders := 6     
+	   2 Input   25 Bit       Adders := 6     
+	   2 Input   20 Bit       Adders := 2     
+	   2 Input   19 Bit       Adders := 3     
+	   2 Input   17 Bit       Adders := 1     
+	   3 Input   14 Bit       Adders := 4     
+	   2 Input   14 Bit       Adders := 2     
+	   2 Input   13 Bit       Adders := 2     
+	   2 Input   12 Bit       Adders := 11    
+	   2 Input   11 Bit       Adders := 6     
+	   4 Input   11 Bit       Adders := 6     
+	   3 Input   10 Bit       Adders := 10    
+	   2 Input   10 Bit       Adders := 3     
+	   2 Input    9 Bit       Adders := 16    
+	   2 Input    8 Bit       Adders := 8     
+	   4 Input    8 Bit       Adders := 3     
+	   2 Input    6 Bit       Adders := 8     
+	   2 Input    5 Bit       Adders := 14    
+	   2 Input    4 Bit       Adders := 19    
+	   2 Input    3 Bit       Adders := 7     
+	   2 Input    2 Bit       Adders := 4     
+	   2 Input    1 Bit       Adders := 2     
++---XORs : 
+	   2 Input      1 Bit         XORs := 22    
++---Registers : 
+	               73 Bit    Registers := 1     
+	               72 Bit    Registers := 1     
+	               66 Bit    Registers := 1     
+	               65 Bit    Registers := 2     
+	               64 Bit    Registers := 19    
+	               58 Bit    Registers := 1     
+	               40 Bit    Registers := 3     
+	               32 Bit    Registers := 29    
+	               31 Bit    Registers := 8     
+	               28 Bit    Registers := 2     
+	               25 Bit    Registers := 4     
+	               22 Bit    Registers := 2     
+	               20 Bit    Registers := 2     
+	               16 Bit    Registers := 8     
+	               14 Bit    Registers := 5     
+	               13 Bit    Registers := 1     
+	               12 Bit    Registers := 14    
+	               11 Bit    Registers := 6     
+	               10 Bit    Registers := 9     
+	                9 Bit    Registers := 12    
+	                8 Bit    Registers := 25    
+	                7 Bit    Registers := 5     
+	                6 Bit    Registers := 13    
+	                5 Bit    Registers := 27    
+	                4 Bit    Registers := 32    
+	                3 Bit    Registers := 5     
+	                2 Bit    Registers := 29    
+	                1 Bit    Registers := 254   
++---RAMs : 
+	             263K Bit	(4095 X 66 bit)          RAMs := 1     
+	             256K Bit	(4096 X 64 bit)          RAMs := 3     
+	              84K Bit	(2688 X 32 bit)          RAMs := 1     
+	              48K Bit	(1536 X 32 bit)          RAMs := 1     
+	              42K Bit	(1344 X 32 bit)          RAMs := 1     
+	              32K Bit	(1024 X 32 bit)          RAMs := 1     
+	              17K Bit	(255 X 72 bit)          RAMs := 1     
+	               8K Bit	(256 X 32 bit)          RAMs := 1     
+	              840 Bit	(168 X 5 bit)          RAMs := 1     
++---Muxes : 
+	   2 Input   65 Bit        Muxes := 1     
+	   2 Input   64 Bit        Muxes := 4     
+	   2 Input   58 Bit        Muxes := 1     
+	   2 Input   54 Bit        Muxes := 1     
+	   2 Input   53 Bit        Muxes := 1     
+	   2 Input   51 Bit        Muxes := 1     
+	   2 Input   49 Bit        Muxes := 1     
+	   2 Input   48 Bit        Muxes := 1     
+	   2 Input   46 Bit        Muxes := 1     
+	   2 Input   42 Bit        Muxes := 1     
+	   2 Input   41 Bit        Muxes := 1     
+	   2 Input   40 Bit        Muxes := 2     
+	   2 Input   39 Bit        Muxes := 1     
+	   2 Input   38 Bit        Muxes := 1     
+	   2 Input   37 Bit        Muxes := 1     
+	   2 Input   34 Bit        Muxes := 1     
+	   2 Input   33 Bit        Muxes := 1     
+	   2 Input   32 Bit        Muxes := 214   
+	   2 Input   31 Bit        Muxes := 1     
+	   2 Input   30 Bit        Muxes := 1     
+	   2 Input   29 Bit        Muxes := 1     
+	   2 Input   26 Bit        Muxes := 1     
+	   2 Input   25 Bit        Muxes := 1     
+	   2 Input   24 Bit        Muxes := 1     
+	   2 Input   23 Bit        Muxes := 1     
+	   2 Input   22 Bit        Muxes := 2     
+	   2 Input   21 Bit        Muxes := 1     
+	   2 Input   20 Bit        Muxes := 2     
+	   2 Input   15 Bit        Muxes := 1     
+	   2 Input   13 Bit        Muxes := 3     
+	   2 Input   12 Bit        Muxes := 18    
+	   4 Input   12 Bit        Muxes := 2     
+	   2 Input   11 Bit        Muxes := 5     
+	   2 Input   10 Bit        Muxes := 5     
+	   2 Input    9 Bit        Muxes := 11    
+	   2 Input    8 Bit        Muxes := 20    
+	   2 Input    7 Bit        Muxes := 3     
+	   3 Input    7 Bit        Muxes := 4     
+	   2 Input    6 Bit        Muxes := 7     
+	   2 Input    5 Bit        Muxes := 22    
+	   2 Input    4 Bit        Muxes := 8     
+	   2 Input    3 Bit        Muxes := 7     
+	   2 Input    2 Bit        Muxes := 59    
+	   3 Input    2 Bit        Muxes := 15    
+	   4 Input    2 Bit        Muxes := 5     
+	   2 Input    1 Bit        Muxes := 148   
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port in_BUS_RID[0] in module render_2d_vram_m_axi_read is either unconnected or has no load
+WARNING: [Synth 8-7129] Port in_BUS_RRESP[1] in module render_2d_vram_m_axi_read is either unconnected or has no load
+WARNING: [Synth 8-7129] Port in_BUS_RRESP[0] in module render_2d_vram_m_axi_read is either unconnected or has no load
+WARNING: [Synth 8-7129] Port in_BUS_RUSER[0] in module render_2d_vram_m_axi_read is either unconnected or has no load
+WARNING: [Synth 8-7129] Port in_BUS_BID[0] in module render_2d_vram_m_axi_write is either unconnected or has no load
+WARNING: [Synth 8-7129] Port in_BUS_BRESP[1] in module render_2d_vram_m_axi_write is either unconnected or has no load
+WARNING: [Synth 8-7129] Port in_BUS_BRESP[0] in module render_2d_vram_m_axi_write is either unconnected or has no load
+WARNING: [Synth 8-7129] Port in_BUS_BUSER[0] in module render_2d_vram_m_axi_write is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tmp_bullet_V_4[26] in module render_2d_render_2d_Pipeline_render_player_bullets_render_player_bullets_x is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tmp_bullet_V_4[25] in module render_2d_render_2d_Pipeline_render_player_bullets_render_player_bullets_x is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tmp_bullet_V_4[24] in module render_2d_render_2d_Pipeline_render_player_bullets_render_player_bullets_x is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tmp_bullet_V_4[23] in module render_2d_render_2d_Pipeline_render_player_bullets_render_player_bullets_x is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tmp_bullet_V_4[22] in module render_2d_render_2d_Pipeline_render_player_bullets_render_player_bullets_x is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tmp_bullet_V_4[21] in module render_2d_render_2d_Pipeline_render_player_bullets_render_player_bullets_x is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tmp_bullet_V_4[20] in module render_2d_render_2d_Pipeline_render_player_bullets_render_player_bullets_x is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tmp_bullet_V_4[19] in module render_2d_render_2d_Pipeline_render_player_bullets_render_player_bullets_x is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tmp_bullet_V_4[18] in module render_2d_render_2d_Pipeline_render_player_bullets_render_player_bullets_x is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tmp_bullet_V_5[26] in module render_2d_render_2d_Pipeline_render_player_bullets_render_player_bullets_x is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tmp_bullet_V_5[25] in module render_2d_render_2d_Pipeline_render_player_bullets_render_player_bullets_x is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tmp_bullet_V_5[24] in module render_2d_render_2d_Pipeline_render_player_bullets_render_player_bullets_x is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tmp_bullet_V_5[23] in module render_2d_render_2d_Pipeline_render_player_bullets_render_player_bullets_x is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tmp_bullet_V_5[22] in module render_2d_render_2d_Pipeline_render_player_bullets_render_player_bullets_x is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tmp_bullet_V_5[21] in module render_2d_render_2d_Pipeline_render_player_bullets_render_player_bullets_x is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tmp_bullet_V_5[20] in module render_2d_render_2d_Pipeline_render_player_bullets_render_player_bullets_x is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tmp_bullet_V_5[19] in module render_2d_render_2d_Pipeline_render_player_bullets_render_player_bullets_x is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tmp_bullet_V_5[18] in module render_2d_render_2d_Pipeline_render_player_bullets_render_player_bullets_x is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tmp_bullet_V[26] in module render_2d_render_2d_Pipeline_render_enemy_bullets_render_enemy_bullets_x is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tmp_bullet_V[25] in module render_2d_render_2d_Pipeline_render_enemy_bullets_render_enemy_bullets_x is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tmp_bullet_V[24] in module render_2d_render_2d_Pipeline_render_enemy_bullets_render_enemy_bullets_x is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3971] The signal "inst/enemy_bullet_V_U/ram_reg" was recognized as a true dual port RAM template.
+INFO: [Synth 8-3971] The signal "inst/player_bullet_V_U/ram_reg" was recognized as a true dual port RAM template.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 2248.742 ; gain = 664.363 ; free physical = 40119 ; free virtual = 54695
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1398.372; parent = 1195.545; children = 202.871
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3198.754; parent = 2216.730; children = 982.023
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Preliminary Mapping Report (see note below)
++------------------+------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name       | RTL Object                               | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++------------------+------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|inst              | bucket_U/ram_reg                         | 168 x 5(READ_FIRST)    | W | R |                        |   |   | Port A           | 1      | 0      | 
+|inst              | bullet_sprite_V_U/ram0_reg               | 4 K x 64(READ_FIRST)   | W | R | 4 K x 64(WRITE_FIRST)  |   | R | Port A and B     | 1      | 7      | 
+|inst              | bullet_sprite_V_U/ram1_reg               | 4 K x 64(READ_FIRST)   | W |   | 4 K x 64(WRITE_FIRST)  |   | R | Port A and B     | 1      | 7      | 
+|inst              | bullet_sprite_V_U/ram2_reg               | 4 K x 64(READ_FIRST)   | W |   | 4 K x 64(WRITE_FIRST)  |   | R | Port A and B     | 1      | 7      | 
+|inst              | grid_info_enemy_bullets_V_U/ram_reg      | 2 K x 32(READ_FIRST)   | W | R | 2 K x 32(WRITE_FIRST)  |   | R | Port A and B     | 0      | 4      | 
+|inst              | grid_info_player_bullets_V_U/ram_reg     | 1 K x 32(READ_FIRST)   | W | R | 1 K x 32(WRITE_FIRST)  |   | R | Port A and B     | 0      | 2      | 
+|inst              | enemy_bullet_V_U/ram_reg                 | 1 K x 32(NO_CHANGE)    | W |   | 1 K x 32(READ_FIRST)   | W | R | Port A and B     | 0      | 2      | 
+|inst              | player_bullet_V_U/ram_reg                | 256 x 32(NO_CHANGE)    | W |   | 256 x 32(READ_FIRST)   | W | R | Port A and B     | 0      | 1      | 
+|inst              | tile_fb_V_U/ram_reg                      | 1 K x 32(READ_FIRST)   | W | R | 1 K x 32(WRITE_FIRST)  |   | R | Port A and B     | 0      | 1      | 
+|inst/vram_m_axi_U | store_unit/buff_wdata/U_fifo_mem/mem_reg | 255 x 72(READ_FIRST)   | W |   | 255 x 72(WRITE_FIRST)  |   | R | Port A and B     | 0      | 1      | 
+|inst/vram_m_axi_U | load_unit/buff_rdata/U_fifo_mem/mem_reg  | 3 K x 66(READ_FIRST)   | W |   | 3 K x 66(WRITE_FIRST)  |   | R | Port A and B     | 1      | 7      | 
++------------------+------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+Note: The table above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 2248.742 ; gain = 664.363 ; free physical = 40070 ; free virtual = 54637
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1515.661; parent = 1312.834; children = 202.871
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3198.754; parent = 2216.730; children = 982.023
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 2248.742 ; gain = 664.363 ; free physical = 40024 ; free virtual = 54592
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1535.653; parent = 1332.826; children = 202.871
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3198.754; parent = 2216.730; children = 982.023
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Final Mapping Report
++------------------+------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name       | RTL Object                               | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++------------------+------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|inst              | bucket_U/ram_reg                         | 168 x 5(READ_FIRST)    | W | R |                        |   |   | Port A           | 1      | 0      | 
+|inst              | bullet_sprite_V_U/ram0_reg               | 4 K x 64(READ_FIRST)   | W | R | 4 K x 64(WRITE_FIRST)  |   | R | Port A and B     | 1      | 7      | 
+|inst              | bullet_sprite_V_U/ram1_reg               | 4 K x 64(READ_FIRST)   | W |   | 4 K x 64(WRITE_FIRST)  |   | R | Port A and B     | 1      | 7      | 
+|inst              | bullet_sprite_V_U/ram2_reg               | 4 K x 64(READ_FIRST)   | W |   | 4 K x 64(WRITE_FIRST)  |   | R | Port A and B     | 1      | 7      | 
+|inst              | grid_info_enemy_bullets_V_U/ram_reg      | 2 K x 32(READ_FIRST)   | W | R | 2 K x 32(WRITE_FIRST)  |   | R | Port A and B     | 0      | 4      | 
+|inst              | grid_info_player_bullets_V_U/ram_reg     | 1 K x 32(READ_FIRST)   | W | R | 1 K x 32(WRITE_FIRST)  |   | R | Port A and B     | 0      | 2      | 
+|inst              | enemy_bullet_V_U/ram_reg                 | 1 K x 32(NO_CHANGE)    | W |   | 1 K x 32(READ_FIRST)   | W | R | Port A and B     | 0      | 2      | 
+|inst              | player_bullet_V_U/ram_reg                | 256 x 32(NO_CHANGE)    | W |   | 256 x 32(READ_FIRST)   | W | R | Port A and B     | 0      | 1      | 
+|inst              | tile_fb_V_U/ram_reg                      | 1 K x 32(READ_FIRST)   | W | R | 1 K x 32(WRITE_FIRST)  |   | R | Port A and B     | 0      | 1      | 
+|inst/vram_m_axi_U | store_unit/buff_wdata/U_fifo_mem/mem_reg | 255 x 72(READ_FIRST)   | W |   | 255 x 72(WRITE_FIRST)  |   | R | Port A and B     | 0      | 1      | 
+|inst/vram_m_axi_U | load_unit/buff_rdata/U_fifo_mem/mem_reg  | 3 K x 66(READ_FIRST)   | W |   | 3 K x 66(WRITE_FIRST)  |   | R | Port A and B     | 1      | 7      | 
++------------------+------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-7052] The timing for the instance inst/bucket_U/ram_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/bullet_sprite_V_U/ram0_reg_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/bullet_sprite_V_U/ram0_reg_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/bullet_sprite_V_U/ram0_reg_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/bullet_sprite_V_U/ram0_reg_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/bullet_sprite_V_U/ram0_reg_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/bullet_sprite_V_U/ram0_reg_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/bullet_sprite_V_U/ram0_reg_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/bullet_sprite_V_U/ram0_reg_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/bullet_sprite_V_U/ram0_reg_4 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/bullet_sprite_V_U/ram0_reg_4 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/bullet_sprite_V_U/ram0_reg_5 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/bullet_sprite_V_U/ram0_reg_5 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/bullet_sprite_V_U/ram0_reg_6 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/bullet_sprite_V_U/ram0_reg_6 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/bullet_sprite_V_U/ram0_reg_7 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/bullet_sprite_V_U/ram0_reg_7 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/grid_info_enemy_bullets_V_U/ram_reg_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/grid_info_enemy_bullets_V_U/ram_reg_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/grid_info_enemy_bullets_V_U/ram_reg_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/grid_info_enemy_bullets_V_U/ram_reg_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/grid_info_enemy_bullets_V_U/ram_reg_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/grid_info_enemy_bullets_V_U/ram_reg_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/grid_info_player_bullets_V_U/ram_reg_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/grid_info_player_bullets_V_U/ram_reg_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/enemy_bullet_V_U/ram_reg_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/player_bullet_V_U/ram_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/tile_fb_V_U/ram_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/vram_m_axi_U/load_unit/buff_rdata/U_fifo_mem/mem_reg_7 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 2248.742 ; gain = 664.363 ; free physical = 39966 ; free virtual = 54547
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1544.708; parent = 1341.881; children = 202.871
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3198.754; parent = 2216.730; children = 982.023
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 2248.742 ; gain = 664.363 ; free physical = 39878 ; free virtual = 54454
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1546.532; parent = 1343.705; children = 202.871
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3198.754; parent = 2216.730; children = 982.023
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 2248.742 ; gain = 664.363 ; free physical = 39846 ; free virtual = 54425
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1546.532; parent = 1343.705; children = 202.871
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3198.754; parent = 2216.730; children = 982.023
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 2248.742 ; gain = 664.363 ; free physical = 39804 ; free virtual = 54383
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1547.247; parent = 1344.420; children = 202.871
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3198.754; parent = 2216.730; children = 982.023
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 2248.742 ; gain = 664.363 ; free physical = 39804 ; free virtual = 54384
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1547.310; parent = 1344.482; children = 202.871
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3198.754; parent = 2216.730; children = 982.023
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 2248.742 ; gain = 664.363 ; free physical = 39804 ; free virtual = 54384
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1547.458; parent = 1344.631; children = 202.871
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3198.754; parent = 2216.730; children = 982.023
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 2248.742 ; gain = 664.363 ; free physical = 39804 ; free virtual = 54384
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1547.458; parent = 1344.631; children = 202.871
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3198.754; parent = 2216.730; children = 982.023
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++------------+--------------------------------------------------------------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name | RTL Name                                                                                                                 | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++------------+--------------------------------------------------------------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|render_2d   | grp_render_2d_Pipeline_render_enemy_bullets_render_enemy_bullets_x_fu_734/tile_fb_V_addr_reg_2779_pp0_iter5_reg_reg[9]   | 3      | 10    | NO           | NO                 | YES               | 10     | 0       | 
+|render_2d   | grp_render_2d_Pipeline_render_enemy_bullets_render_enemy_bullets_x_fu_734/icmp_ln1039_4_reg_2541_pp0_iter4_reg_reg[0]    | 4      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|render_2d   | grp_render_2d_Pipeline_render_enemy_bullets_render_enemy_bullets_x_fu_734/icmp_ln1039_reg_2536_pp0_iter4_reg_reg[0]      | 4      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|render_2d   | grp_render_2d_Pipeline_render_enemy_bullets_render_enemy_bullets_x_fu_734/phitmp31_reg_2505_pp0_iter4_reg_reg[0]         | 4      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|render_2d   | grp_render_2d_Pipeline_render_enemy_bullets_render_enemy_bullets_x_fu_734/add_ln220_5_reg_2531_pp0_iter3_reg_reg[1]      | 3      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|render_2d   | grp_render_2d_Pipeline_render_enemy_bullets_render_enemy_bullets_x_fu_734/phitmp30_reg_2500_pp0_iter4_reg_reg[0]         | 4      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|render_2d   | grp_render_2d_Pipeline_render_enemy_bullets_render_enemy_bullets_x_fu_734/icmp_ln1039_6_reg_2592_pp0_iter4_reg_reg[0]    | 4      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|render_2d   | grp_render_2d_Pipeline_render_enemy_bullets_render_enemy_bullets_x_fu_734/icmp_ln1039_5_reg_2587_pp0_iter4_reg_reg[0]    | 4      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|render_2d   | grp_render_2d_Pipeline_render_enemy_bullets_render_enemy_bullets_x_fu_734/phitmp25_reg_2556_pp0_iter4_reg_reg[0]         | 4      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|render_2d   | grp_render_2d_Pipeline_render_enemy_bullets_render_enemy_bullets_x_fu_734/add_ln220_12_reg_2582_pp0_iter3_reg_reg[1]     | 3      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|render_2d   | grp_render_2d_Pipeline_render_enemy_bullets_render_enemy_bullets_x_fu_734/phitmp24_reg_2551_pp0_iter4_reg_reg[0]         | 4      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|render_2d   | grp_render_2d_Pipeline_render_enemy_bullets_render_enemy_bullets_x_fu_734/icmp_ln1039_8_reg_2643_pp0_iter4_reg_reg[0]    | 4      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|render_2d   | grp_render_2d_Pipeline_render_enemy_bullets_render_enemy_bullets_x_fu_734/icmp_ln1039_7_reg_2638_pp0_iter4_reg_reg[0]    | 4      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|render_2d   | grp_render_2d_Pipeline_render_enemy_bullets_render_enemy_bullets_x_fu_734/phitmp18_reg_2602_pp0_iter4_reg_reg[0]         | 4      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|render_2d   | grp_render_2d_Pipeline_render_enemy_bullets_render_enemy_bullets_x_fu_734/add_ln220_17_reg_2633_pp0_iter3_reg_reg[1]     | 3      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|render_2d   | grp_render_2d_Pipeline_render_enemy_bullets_render_enemy_bullets_x_fu_734/phitmp19_reg_2607_pp0_iter4_reg_reg[0]         | 4      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|render_2d   | grp_render_2d_Pipeline_render_enemy_bullets_render_enemy_bullets_x_fu_734/icmp_ln1039_9_reg_2689_pp0_iter5_reg_reg[0]    | 5      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|render_2d   | grp_render_2d_Pipeline_render_enemy_bullets_render_enemy_bullets_x_fu_734/icmp_ln1039_10_reg_2694_pp0_iter5_reg_reg[0]   | 5      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|render_2d   | grp_render_2d_Pipeline_render_enemy_bullets_render_enemy_bullets_x_fu_734/add_ln220_22_reg_2684_pp0_iter4_reg_reg[1]     | 4      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|render_2d   | grp_render_2d_Pipeline_render_enemy_bullets_render_enemy_bullets_x_fu_734/phitmp13_reg_2658_pp0_iter5_reg_reg[0]         | 5      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|render_2d   | grp_render_2d_Pipeline_render_enemy_bullets_render_enemy_bullets_x_fu_734/phitmp12_reg_2653_pp0_iter5_reg_reg[0]         | 5      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|render_2d   | grp_render_2d_Pipeline_render_enemy_bullets_render_enemy_bullets_x_fu_734/ap_loop_exit_ready_pp0_iter5_reg_reg           | 5      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|render_2d   | grp_render_2d_Pipeline_render_player_bullets_render_player_bullets_x_fu_752/ult_reg_1470_pp0_iter4_reg_reg[0]            | 4      | 1     | NO           | YES                | YES               | 1      | 0       | 
+|render_2d   | grp_render_2d_Pipeline_render_player_bullets_render_player_bullets_x_fu_752/ult25_reg_1475_pp0_iter4_reg_reg[0]          | 4      | 1     | NO           | YES                | YES               | 1      | 0       | 
+|render_2d   | grp_render_2d_Pipeline_render_player_bullets_render_player_bullets_x_fu_752/icmp_ln1039_1_reg_1445_pp0_iter4_reg_reg[0]  | 4      | 1     | NO           | YES                | YES               | 1      | 0       | 
+|render_2d   | grp_render_2d_Pipeline_render_player_bullets_render_player_bullets_x_fu_752/trunc_ln266_1_reg_1465_pp0_iter3_reg_reg[1]  | 3      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|render_2d   | grp_render_2d_Pipeline_render_player_bullets_render_player_bullets_x_fu_752/icmp_ln1039_reg_1440_pp0_iter4_reg_reg[0]    | 4      | 1     | NO           | YES                | YES               | 1      | 0       | 
+|render_2d   | grp_render_2d_Pipeline_render_player_bullets_render_player_bullets_x_fu_752/ult27_reg_1510_pp0_iter4_reg_reg[0]          | 4      | 1     | NO           | YES                | YES               | 1      | 0       | 
+|render_2d   | grp_render_2d_Pipeline_render_player_bullets_render_player_bullets_x_fu_752/ult29_reg_1515_pp0_iter4_reg_reg[0]          | 4      | 1     | NO           | YES                | YES               | 1      | 0       | 
+|render_2d   | grp_render_2d_Pipeline_render_player_bullets_render_player_bullets_x_fu_752/icmp_ln1039_2_reg_1480_pp0_iter4_reg_reg[0]  | 4      | 1     | NO           | YES                | YES               | 1      | 0       | 
+|render_2d   | grp_render_2d_Pipeline_render_player_bullets_render_player_bullets_x_fu_752/trunc_ln266_10_reg_1505_pp0_iter3_reg_reg[1] | 3      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|render_2d   | grp_render_2d_Pipeline_render_player_bullets_render_player_bullets_x_fu_752/icmp_ln1039_3_reg_1485_pp0_iter4_reg_reg[0]  | 4      | 1     | NO           | YES                | YES               | 1      | 0       | 
+|render_2d   | grp_render_2d_Pipeline_render_player_bullets_render_player_bullets_x_fu_752/ap_loop_exit_ready_pp0_iter4_reg_reg         | 4      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|render_2d   | ap_CS_fsm_reg[56]                                                                                                        | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|render_2d   | ap_CS_fsm_reg[19]                                                                                                        | 6      | 2     | YES          | NO                 | YES               | 2      | 0       | 
++------------+--------------------------------------------------------------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+
+Dynamic Shift Register Report:
++------------+--------------+--------+------------+--------+---------+--------+--------+--------+
+|Module Name | RTL Name     | Length | Data Width | SRL16E | SRLC32E | Mux F7 | Mux F8 | Mux F9 | 
++------------+--------------+--------+------------+--------+---------+--------+--------+--------+
+|dsrl        | mem_reg[3]   | 64     | 64         | 64     | 0       | 0      | 0      | 0      | 
+|dsrl__1     | mem_reg[14]  | 1      | 1          | 1      | 0       | 0      | 0      | 0      | 
+|dsrl__2     | mem_reg[3]   | 1      | 1          | 1      | 0       | 0      | 0      | 0      | 
+|dsrl__3     | mem_reg[14]  | 8      | 8          | 8      | 0       | 0      | 0      | 0      | 
+|dsrl__4     | mem_reg[14]  | 40     | 40         | 40     | 0       | 0      | 0      | 0      | 
+|dsrl__5     | mem_reg[254] | 73     | 73         | 0      | 584     | 292    | 146    | 0      | 
++------------+--------------+--------+------------+--------+---------+--------+--------+--------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |CARRY4   |   304|
+|2     |LUT1     |   226|
+|3     |LUT2     |   693|
+|4     |LUT3     |   442|
+|5     |LUT4     |   881|
+|6     |LUT5     |   372|
+|7     |LUT6     |   505|
+|8     |MUXF7    |   300|
+|9     |MUXF8    |   146|
+|10    |RAMB18E1 |     5|
+|13    |RAMB36E1 |    38|
+|22    |SRL16E   |   128|
+|23    |SRLC32E  |   584|
+|24    |FDRE     |  2729|
+|25    |FDSE     |     6|
++------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 2248.742 ; gain = 664.363 ; free physical = 39804 ; free virtual = 54384
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1547.458; parent = 1344.631; children = 202.871
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3198.754; parent = 2216.730; children = 982.023
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 65 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 2248.742 ; gain = 513.613 ; free physical = 39832 ; free virtual = 54410
+Synthesis Optimization Complete : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 2248.742 ; gain = 664.363 ; free physical = 39832 ; free virtual = 54410
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.04 . Memory (MB): peak = 2248.742 ; gain = 0.000 ; free physical = 39931 ; free virtual = 54508
+INFO: [Netlist 29-17] Analyzing 793 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2248.742 ; gain = 0.000 ; free physical = 39877 ; free virtual = 54453
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: a2014eed
+INFO: [Common 17-83] Releasing license: Synthesis
+147 Infos, 114 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:23 . Memory (MB): peak = 2248.742 ; gain = 972.668 ; free physical = 40043 ; free virtual = 54619
+INFO: [Common 17-1381] The checkpoint '/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.runs/zynq7010_render_2d_0_1_synth_1/zynq7010_render_2d_0_1.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP zynq7010_render_2d_0_1, cache-ID = b4bd8bec1f9b3c3d
+INFO: [Coretcl 2-1174] Renamed 56 cell refs.
+INFO: [Common 17-1381] The checkpoint '/home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.runs/zynq7010_render_2d_0_1_synth_1/zynq7010_render_2d_0_1.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file zynq7010_render_2d_0_1_utilization_synth.rpt -pb zynq7010_render_2d_0_1_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Dec 15 19:59:39 2024...

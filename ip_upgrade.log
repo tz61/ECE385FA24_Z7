@@ -1,0 +1,789 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+| Date         : Tue Dec 17 15:18:11 2024
+| Host         : ztn-Legion-Y9000P-IRX8 running 64-bit Ubuntu 24.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'zynq7010_zynq7010_axi4_fbread_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of zynq7010_zynq7010_axi4_fbread_0_0 (xilinx.com:user:zynq7010_axi4_fbreader_to_hdmi:1.0 (Rev. 9)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+| Date         : Tue Dec 17 15:17:33 2024
+| Host         : ztn-Legion-Y9000P-IRX8 running 64-bit Ubuntu 24.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'zynq7010_zynq7010_axi4_fbread_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of zynq7010_zynq7010_axi4_fbread_0_0 (xilinx.com:user:zynq7010_axi4_fbreader_to_hdmi:1.0) from (Rev. 10) to (Rev. 9)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+| Date         : Tue Dec 17 14:59:18 2024
+| Host         : ztn-Legion-Y9000P-IRX8 running 64-bit Ubuntu 24.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'zynq7010_zynq7010_axi4_fbread_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of zynq7010_zynq7010_axi4_fbread_0_0 (xilinx.com:user:zynq7010_axi4_fbreader_to_hdmi:1.0 (Rev. 10)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+| Date         : Tue Dec 17 14:58:16 2024
+| Host         : ztn-Legion-Y9000P-IRX8 running 64-bit Ubuntu 24.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'zynq7010_zynq7010_axi4_fbread_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of zynq7010_zynq7010_axi4_fbread_0_0 (xilinx.com:user:zynq7010_axi4_fbreader_to_hdmi:1.0) from (Rev. 9) to (Rev. 10)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+| Date         : Sun Dec 15 19:59:02 2024
+| Host         : ztn-Legion-Y9000P-IRX8 running 64-bit Ubuntu 24.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'zynq7010_render_2d_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of zynq7010_render_2d_0_1 (xilinx.com:hls:render_2d:1.0) from (Rev. 2113867277) to (Rev. 2113867316)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+| Date         : Sun Dec 15 19:19:42 2024
+| Host         : ztn-Legion-Y9000P-IRX8 running 64-bit Ubuntu 24.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'zynq7010_render_2d_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of zynq7010_render_2d_0_1 (xilinx.com:hls:render_2d:1.0) from (Rev. 2113867265) to (Rev. 2113867277)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+| Date         : Sun Dec 15 19:07:29 2024
+| Host         : ztn-Legion-Y9000P-IRX8 running 64-bit Ubuntu 24.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'zynq7010_render_2d_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of zynq7010_render_2d_0_1 (xilinx.com:hls:render_2d:1.0) from (Rev. 2113867254) to (Rev. 2113867265)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+| Date         : Sun Dec 15 18:56:47 2024
+| Host         : ztn-Legion-Y9000P-IRX8 running 64-bit Ubuntu 24.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'zynq7010_render_2d_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of zynq7010_render_2d_0_1 (xilinx.com:hls:render_2d:1.0) from (Rev. 2113867153) to (Rev. 2113867254)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+| Date         : Sun Dec 15 17:18:01 2024
+| Host         : ztn-Legion-Y9000P-IRX8 running 64-bit Ubuntu 24.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'zynq7010_render_2d_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of zynq7010_render_2d_0_1 (xilinx.com:hls:render_2d:1.0) from (Rev. 2113865733) to (Rev. 2113867153)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+| Date         : Sat Dec 14 17:35:58 2024
+| Host         : ztn-Legion-Y9000P-IRX8 running 64-bit Ubuntu 24.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'zynq7010_render_2d_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of zynq7010_render_2d_0_1 (xilinx.com:hls:render_2d:1.0) from (Rev. 2113864871) to (Rev. 2113865733)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+| Date         : Sat Dec 14 03:13:55 2024
+| Host         : ztn-Legion-Y9000P-IRX8 running 64-bit Ubuntu 24.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'zynq7010_render_2d_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of zynq7010_render_2d_0_1 (xilinx.com:hls:render_2d:1.0) from (Rev. 2113863855) to (Rev. 2113864871)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+| Date         : Fri Dec 13 10:17:50 2024
+| Host         : ztn-Legion-Y9000P-IRX8 running 64-bit Ubuntu 24.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'zynq7010_render_2d_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of zynq7010_render_2d_0_1 (xilinx.com:hls:render_2d:1.0) from (Rev. 2113863838) to (Rev. 2113863855)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+| Date         : Fri Dec 13 10:01:51 2024
+| Host         : ztn-Legion-Y9000P-IRX8 running 64-bit Ubuntu 24.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'zynq7010_render_2d_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of zynq7010_render_2d_0_1 (xilinx.com:hls:render_2d:1.0) from (Rev. 2113863727) to (Rev. 2113863838)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+| Date         : Fri Dec 13 08:10:01 2024
+| Host         : ztn-Legion-Y9000P-IRX8 running 64-bit Ubuntu 24.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'zynq7010_render_2d_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of zynq7010_render_2d_0_1 (xilinx.com:hls:render_2d:1.0) from (Rev. 2113863402) to (Rev. 2113863727)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+| Date         : Fri Dec 13 02:44:25 2024
+| Host         : ztn-Legion-Y9000P-IRX8 running 64-bit Ubuntu 24.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'zynq7010_render_2d_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of zynq7010_render_2d_0_1 (xilinx.com:hls:render_2d:1.0) from (Rev. 2113863385) to (Rev. 2113863402)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+| Date         : Fri Dec 13 02:27:04 2024
+| Host         : ztn-Legion-Y9000P-IRX8 running 64-bit Ubuntu 24.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'zynq7010_render_2d_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of zynq7010_render_2d_0_1 (xilinx.com:hls:render_2d:1.0) from (Rev. 2113863370) to (Rev. 2113863385)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+| Date         : Fri Dec 13 02:12:31 2024
+| Host         : ztn-Legion-Y9000P-IRX8 running 64-bit Ubuntu 24.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'zynq7010_render_2d_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of zynq7010_render_2d_0_1 (xilinx.com:hls:render_2d:1.0) from (Rev. 2113863345) to (Rev. 2113863370)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+| Date         : Fri Dec 13 01:47:42 2024
+| Host         : ztn-Legion-Y9000P-IRX8 running 64-bit Ubuntu 24.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'zynq7010_render_2d_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of zynq7010_render_2d_0_1 (xilinx.com:hls:render_2d:1.0) from (Rev. 2113863230) to (Rev. 2113863345)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+| Date         : Thu Dec 12 23:51:57 2024
+| Host         : ztn-Legion-Y9000P-IRX8 running 64-bit Ubuntu 24.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'zynq7010_render_2d_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of zynq7010_render_2d_0_1 (xilinx.com:hls:render_2d:1.0) from (Rev. 2113863221) to (Rev. 2113863230)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+| Date         : Thu Dec 12 23:44:39 2024
+| Host         : ztn-Legion-Y9000P-IRX8 running 64-bit Ubuntu 24.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'zynq7010_render_2d_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of zynq7010_render_2d_0_1 (xilinx.com:hls:render_2d:1.0) from (Rev. 2113863195) to (Rev. 2113863221)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+| Date         : Thu Dec 12 23:18:46 2024
+| Host         : ztn-Legion-Y9000P-IRX8 running 64-bit Ubuntu 24.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'zynq7010_render_2d_0_1'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of zynq7010_render_2d_0_1 (xilinx.com:hls:render_2d:1.0) from (Rev. 2113861296) to (Rev. 2113863195)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'zynq7010_render_2d_0_1'. These changes may impact your design.
+
+
+-Upgrade has added port 'fb1_alt'
+
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+| Date         : Thu Dec 12 22:08:43 2024
+| Host         : ztn-Legion-Y9000P-IRX8 running 64-bit Ubuntu 24.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'zynq7010_zynq7010_axi4_fbread_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of zynq7010_zynq7010_axi4_fbread_0_0 (xilinx.com:user:zynq7010_axi4_fbreader_to_hdmi:1.0) from (Rev. 8) to (Rev. 9)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+| Date         : Thu Dec 12 21:41:33 2024
+| Host         : ztn-Legion-Y9000P-IRX8 running 64-bit Ubuntu 24.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'zynq7010_zynq7010_axi4_fbread_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of zynq7010_zynq7010_axi4_fbread_0_0 (xilinx.com:user:zynq7010_axi4_fbreader_to_hdmi:1.0) from (Rev. 7) to (Rev. 8)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+| Date         : Thu Dec 12 20:55:23 2024
+| Host         : ztn-Legion-Y9000P-IRX8 running 64-bit Ubuntu 24.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'zynq7010_zynq7010_axi4_fbread_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of zynq7010_zynq7010_axi4_fbread_0_0 (xilinx.com:user:zynq7010_axi4_fbreader_to_hdmi:1.0) from (Rev. 6) to (Rev. 7)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'zynq7010_zynq7010_axi4_fbread_0_0'. These changes may impact your design.
+
+
+-Upgrade has added port 'init_new_frame'
+
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+| Date         : Wed Dec 11 15:38:40 2024
+| Host         : ztn-Legion-Y9000P-IRX8 running 64-bit Ubuntu 24.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'zynq7010_render_2d_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of zynq7010_render_2d_0_1 (xilinx.com:hls:render_2d:1.0) from (Rev. 2113861281) to (Rev. 2113861296)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+| Date         : Wed Dec 11 15:23:46 2024
+| Host         : ztn-Legion-Y9000P-IRX8 running 64-bit Ubuntu 24.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'zynq7010_render_2d_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of zynq7010_render_2d_0_1 (xilinx.com:hls:render_2d:1.0) from (Rev. 2113861118) to (Rev. 2113861281)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+| Date         : Wed Dec 11 12:40:37 2024
+| Host         : ztn-Legion-Y9000P-IRX8 running 64-bit Ubuntu 24.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'zynq7010_render_2d_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of zynq7010_render_2d_0_1 (xilinx.com:hls:render_2d:1.0) from (Rev. 2113861104) to (Rev. 2113861118)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+| Date         : Wed Dec 11 12:25:59 2024
+| Host         : ztn-Legion-Y9000P-IRX8 running 64-bit Ubuntu 24.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'zynq7010_render_2d_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of zynq7010_render_2d_0_1 (xilinx.com:hls:render_2d:1.0) from (Rev. 2113861090) to (Rev. 2113861104)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+| Date         : Wed Dec 11 12:13:15 2024
+| Host         : ztn-Legion-Y9000P-IRX8 running 64-bit Ubuntu 24.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'zynq7010_render_2d_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of zynq7010_render_2d_0_1 (xilinx.com:hls:render_2d:1.0) from (Rev. 2113861078) to (Rev. 2113861090)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+| Date         : Wed Dec 11 12:01:05 2024
+| Host         : ztn-Legion-Y9000P-IRX8 running 64-bit Ubuntu 24.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'zynq7010_render_2d_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of zynq7010_render_2d_0_1 (xilinx.com:hls:render_2d:1.0) from (Rev. 2113860848) to (Rev. 2113861078)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+| Date         : Wed Dec 11 08:10:53 2024
+| Host         : ztn-Legion-Y9000P-IRX8 running 64-bit Ubuntu 24.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'zynq7010_render_2d_0_1'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of zynq7010_render_2d_0_1 (xilinx.com:hls:render_2d:1.0) from (Rev. 2113860825) to (Rev. 2113860848)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'zynq7010_render_2d_0_1'. These changes may impact your design.
+
+
+-Upgrade has removed port 'ap_return'
+
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+| Date         : Wed Dec 11 07:47:30 2024
+| Host         : ztn-Legion-Y9000P-IRX8 running 64-bit Ubuntu 24.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'zynq7010_render_2d_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of zynq7010_render_2d_0_1 (xilinx.com:hls:render_2d:1.0) from (Rev. 2113860779) to (Rev. 2113860825)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+| Date         : Wed Dec 11 07:09:20 2024
+| Host         : ztn-Legion-Y9000P-IRX8 running 64-bit Ubuntu 24.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'zynq7010_zynq7010_axi4_fbread_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of zynq7010_zynq7010_axi4_fbread_0_0 (xilinx.com:user:zynq7010_axi4_fbreader_to_hdmi:1.0) from (Rev. 5) to (Rev. 6)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'zynq7010_zynq7010_axi4_fbread_0_0'. These changes may impact your design.
+
+
+-Upgrade has removed port 'fb_use_alt'
+
+-Upgrade has added port 'fb0_use_alt'
+
+-Upgrade has added port 'fb1_use_alt'
+
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+| Date         : Wed Dec 11 07:09:19 2024
+| Host         : ztn-Legion-Y9000P-IRX8 running 64-bit Ubuntu 24.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'zynq7010_render_2d_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of zynq7010_render_2d_0_1 (xilinx.com:hls:render_2d:1.0) from (Rev. 2113860008) to (Rev. 2113860779)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+| Date         : Tue Dec 10 23:22:50 2024
+| Host         : ztn-Legion-Y9000P-IRX8 running 64-bit Ubuntu 24.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'zynq7010_render_2d_0_1'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of zynq7010_render_2d_0_1 (xilinx.com:hls:render_2d:1.0) from (Rev. 2113859902) to (Rev. 2113860008)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'zynq7010_render_2d_0_1'. These changes may impact your design.
+
+
+-Upgrade has added port 'ap_return'
+
+

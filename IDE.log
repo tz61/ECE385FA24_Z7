@@ -1,0 +1,9 @@
+06:55:30 DEBUG : Logs will be stored at '/home/ztn/Embedded/ZYNQ7010_2022/IDE.log'.
+06:55:31 INFO  : Launching XSCT server: xsct -n  -interactive /home/ztn/Embedded/ZYNQ7010_2022/temp_xsdb_launch_script.tcl
+06:55:31 INFO  : Platform repository initialization has completed.
+06:55:31 INFO  : Registering command handlers for Vitis TCF services
+06:55:32 INFO  : XSCT server has started successfully.
+06:55:32 INFO  : Successfully done setting XSCT server connection channel  
+06:55:32 INFO  : Successfully done query RDI_DATADIR 
+06:55:32 INFO  : Successfully done setting workspace for the tool. 
+06:55:33 INFO  : plnx-install-location is set to ''

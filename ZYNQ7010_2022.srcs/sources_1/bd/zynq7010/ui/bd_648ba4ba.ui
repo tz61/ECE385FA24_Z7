@@ -1,0 +1,78 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.674636",
+   "Default View_TopLeft":"-245,550",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 6 -x 1830 -y 310 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 6 -x 1830 -y 340 -defaultsOSRD
+preplace port hdmi -pg 1 -lvl 6 -x 1830 -y 1040 -defaultsOSRD
+preplace port port-id_Interconn0 -pg 1 -lvl 6 -x 1830 -y 1070 -defaultsOSRD
+preplace port port-id_Interconn1 -pg 1 -lvl 6 -x 1830 -y 1100 -defaultsOSRD
+preplace portBus key_z -pg 1 -lvl 0 -x 0 -y 1750 -defaultsOSRD
+preplace portBus key_shift -pg 1 -lvl 0 -x 0 -y 1780 -defaultsOSRD
+preplace portBus key_up -pg 1 -lvl 0 -x 0 -y 1810 -defaultsOSRD
+preplace portBus key_down -pg 1 -lvl 0 -x 0 -y 1840 -defaultsOSRD
+preplace portBus key_left -pg 1 -lvl 0 -x 0 -y 1870 -defaultsOSRD
+preplace portBus key_right -pg 1 -lvl 0 -x 0 -y 1900 -defaultsOSRD
+preplace portBus buzzer_die -pg 1 -lvl 6 -x 1830 -y 1800 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 5 -x 1540 -y 340 -defaultsOSRD
+preplace inst proc_sys_reset_0 -pg 1 -lvl 2 -x 430 -y 560 -defaultsOSRD
+preplace inst axi_interconnect_fbreader -pg 1 -lvl 4 -x 1130 -y 120 -defaultsOSRD
+preplace inst audio_shift -pg 1 -lvl 4 -x 1130 -y 1320 -defaultsOSRD
+preplace inst audio_en -pg 1 -lvl 4 -x 1130 -y 1210 -defaultsOSRD -resize 160 88
+preplace inst audio_type -pg 1 -lvl 4 -x 1130 -y 1100 -defaultsOSRD -resize 160 88
+preplace inst fb0_use_alt -pg 1 -lvl 4 -x 1130 -y 960 -defaultsOSRD -resize 160 88
+preplace inst axi_interconnect_renderer -pg 1 -lvl 4 -x 1130 -y 340 -defaultsOSRD -resize 260 196
+preplace inst fb1_use_alt -pg 1 -lvl 1 -x 120 -y 840 -defaultsOSRD -resize 160 88
+preplace inst start_render_2d -pg 1 -lvl 2 -x 430 -y 710 -defaultsOSRD -resize 160 88
+preplace inst xlconcat_0 -pg 1 -lvl 3 -x 790 -y 1730 -defaultsOSRD
+preplace inst xlconcat_1 -pg 1 -lvl 4 -x 1130 -y 670 -defaultsOSRD
+preplace inst buzzer_die_control -pg 1 -lvl 5 -x 1540 -y 1800 -defaultsOSRD -resize 160 88
+preplace inst inverter_0 -pg 1 -lvl 2 -x 430 -y 840 -defaultsOSRD
+preplace inst render_2d_0 -pg 1 -lvl 3 -x 790 -y 750 -defaultsOSRD
+preplace inst zynq7010_axi4_fbread -pg 1 -lvl 5 -x 1540 -y 1080 -defaultsOSRD
+preplace netloc In34_0_1 1 0 3 NJ 1750 NJ 1750 620J
+preplace netloc In35_0_1 1 0 3 NJ 1780 NJ 1780 610J
+preplace netloc In36_0_1 1 0 3 NJ 1810 NJ 1810 620J
+preplace netloc In37_0_1 1 0 3 NJ 1840 NJ 1840 NJ
+preplace netloc In38_0_1 1 0 3 20J 1860 NJ 1860 NJ
+preplace netloc In39_0_1 1 0 3 20J 1880 NJ 1880 NJ
+preplace netloc audio_en_Dout 1 4 1 1300J 1090n
+preplace netloc audio_shift_Dout 1 4 1 1320J 1110n
+preplace netloc audio_type_Dout 1 4 1 1290J 1070n
+preplace netloc buzzer_die_control_Dout 1 5 1 NJ 1800
+preplace netloc fb1_use_alt_Dout 1 1 4 220 1030 NJ 1030 NJ 1030 NJ
+preplace netloc fb_use_alt_Dout 1 4 1 1290J 960n
+preplace netloc inverter_0_q 1 2 1 610J 810n
+preplace netloc proc_sys_reset_0_peripheral_aresetn 1 2 3 610 600 970 890 1280J
+preplace netloc processing_system7_0_FCLK_CLK0 1 1 5 240 780 620 870 960 880 1310 480 1770
+preplace netloc processing_system7_0_FCLK_CLK1 1 4 2 1320 490 1760
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 1 5 250 1010 NJ 1010 950J 1390 NJ 1390 1780
+preplace netloc processing_system7_0_GPIO_O 1 0 6 20 770 230 1020 NJ 1020 970 1400 1300 1400 1790
+preplace netloc render_2d_0_ap_done 1 2 2 630 520 NJ
+preplace netloc render_2d_0_ap_idle 1 2 1 630 750n
+preplace netloc start_render_2d_Dout 1 2 1 NJ 710
+preplace netloc xlconcat_0_dout 1 3 3 NJ 1730 NJ 1730 1800
+preplace netloc xlconcat_1_dout 1 4 1 1280 400n
+preplace netloc zynq7010_axi4_fbread_init_new_frame 1 3 3 980 1380 NJ 1380 1760
+preplace netloc zynq7010_axi4_fbread_left_out 1 5 1 1810J 1070n
+preplace netloc zynq7010_axi4_fbread_right_out 1 5 1 NJ 1100
+preplace netloc axi_interconnect_1_M00_AXI 1 4 1 1320 120n
+preplace netloc axi_interconnect_renderer_M00_AXI 1 4 1 N 340
+preplace netloc processing_system7_0_DDR 1 5 1 1810J 310n
+preplace netloc processing_system7_0_FIXED_IO 1 5 1 NJ 340
+preplace netloc render_2d_0_m_axi_vram 1 3 1 950 280n
+preplace netloc zynq7010_axi4_fbread_0_HDMI 1 5 1 NJ 1040
+preplace netloc zynq7010_axi4_fbread_m00_axi 1 3 3 980 460 1290J 500 1760
+levelinfo -pg 1 0 120 430 790 1130 1540 1830
+pagesize -pg 1 -db -bbox -sgen -150 0 1990 2420
+"
+}
+{
+   "da_axi4_cnt":"3",
+   "da_board_cnt":"1",
+   "da_clkrst_cnt":"2",
+   "da_ps7_cnt":"1"
+}

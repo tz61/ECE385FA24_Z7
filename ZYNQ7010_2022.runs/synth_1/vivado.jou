@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 04:59:54 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Tue Dec 17 15:19:11 2024
+# Process ID: 91657
+# Current directory: /home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.runs/synth_1
+# Command line: vivado -log ece385final_z7_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ece385final_z7_top.tcl
+# Log file: /home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.runs/synth_1/ece385final_z7_top.vds
+# Journal file: /home/ztn/Embedded/ZYNQ7010_2022/ZYNQ7010_2022.runs/synth_1/vivado.jou
+# Running On: ztn-Legion-Y9000P-IRX8, OS: Linux, CPU Frequency: 1776.927 MHz, CPU Physical cores: 24, Host memory: 67215 MB
+#-----------------------------------------------------------
+source ece385final_z7_top.tcl -notrace
